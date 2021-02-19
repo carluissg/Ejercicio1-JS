@@ -5,3 +5,9 @@ function Mayuscula(textoNombre) {
 }
 
 console.log(Mayuscula(textoNombre.toLowerCase()));
+
+/* Correcciones */
+
+const nombre = "jessi";
+
+console.log(nombre.charAt(0).toUpperCase() + nombre.slice(1));
